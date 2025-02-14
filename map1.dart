@@ -21,7 +21,7 @@ void main() {
   // Acceder a un valor específico usando una clave
   int numeroMes = 5;
   String nombreMes = mesesDelAnio[numeroMes]!;
-  print('Mes $numeroMes: ${mesesDelAnio[nombreMes]}');
+  print('Mes $numeroMes: $nombreMes \n');
   
 
   // usando forEach
